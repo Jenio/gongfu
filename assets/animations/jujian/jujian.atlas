@@ -1,0 +1,97 @@
+
+jujian.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guai1-oshou
+  rotate: false
+  xy: 384, 40
+  size: 77, 157
+  orig: 77, 157
+  offset: 0, 0
+  index: -1
+guai1-shenti
+  rotate: false
+  xy: 751, 318
+  size: 117, 180
+  orig: 117, 180
+  offset: 0, 0
+  index: -1
+guai1-tou
+  rotate: false
+  xy: 2, 2
+  size: 182, 195
+  orig: 182, 195
+  offset: 0, 0
+  index: -1
+guai1-yaobi
+  rotate: false
+  xy: 538, 110
+  size: 130, 87
+  orig: 130, 87
+  offset: 0, 0
+  index: -1
+guai1-youbi
+  rotate: true
+  xy: 538, 25
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+guai1-youjiao
+  rotate: false
+  xy: 186, 22
+  size: 102, 175
+  orig: 102, 175
+  offset: 0, 0
+  index: -1
+guai1-zuojiao
+  rotate: false
+  xy: 186, 22
+  size: 102, 175
+  orig: 102, 175
+  offset: 0, 0
+  index: -1
+guai1-youshou
+  rotate: true
+  xy: 870, 422
+  size: 76, 152
+  orig: 76, 152
+  offset: 0, 0
+  index: -1
+guai1-youtui
+  rotate: false
+  xy: 463, 43
+  size: 73, 154
+  orig: 73, 154
+  offset: 0, 0
+  index: -1
+guai1-zhengzuojiao
+  rotate: false
+  xy: 290, 29
+  size: 92, 168
+  orig: 92, 168
+  offset: 0, 0
+  index: -1
+guai1-zuobi
+  rotate: false
+  xy: 751, 196
+  size: 88, 120
+  orig: 88, 120
+  offset: 0, 0
+  index: -1
+guai1-zuotui
+  rotate: true
+  xy: 870, 328
+  size: 92, 151
+  orig: 92, 151
+  offset: 0, 0
+  index: -1
+jujian
+  rotate: true
+  xy: 2, 199
+  size: 299, 747
+  orig: 299, 747
+  offset: 0, 0
+  index: -1

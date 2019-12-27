@@ -1,0 +1,125 @@
+
+fuzi.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pangzi-chuizier
+  rotate: false
+  xy: 2, 672
+  size: 529, 333
+  orig: 529, 333
+  offset: 0, 0
+  index: -1
+pangzi-chuiziyi
+  rotate: false
+  xy: 2, 337
+  size: 529, 333
+  orig: 529, 333
+  offset: 0, 0
+  index: -1
+pangzi-fuzier
+  rotate: false
+  xy: 533, 508
+  size: 539, 217
+  orig: 539, 217
+  offset: 0, 0
+  index: -1
+pangzi-fuziyi
+  rotate: false
+  xy: 1088, 788
+  size: 539, 217
+  orig: 539, 217
+  offset: 0, 0
+  index: -1
+pangzi-mubanger
+  rotate: false
+  xy: 533, 727
+  size: 553, 278
+  orig: 553, 278
+  offset: 0, 0
+  index: -1
+pangzi-mubangyi
+  rotate: false
+  xy: 533, 727
+  size: 553, 278
+  orig: 553, 278
+  offset: 0, 0
+  index: -1
+pangzi-shjenti
+  rotate: true
+  xy: 2, 2
+  size: 333, 442
+  orig: 333, 442
+  offset: 0, 0
+  index: -1
+pangzi-tou
+  rotate: true
+  xy: 844, 299
+  size: 207, 254
+  orig: 207, 254
+  offset: 0, 0
+  index: -1
+pangzi-youshoushang
+  rotate: false
+  xy: 446, 118
+  size: 189, 205
+  orig: 189, 205
+  offset: 0, 0
+  index: -1
+pangzi-youshouxia
+  rotate: true
+  xy: 1629, 805
+  size: 200, 295
+  orig: 200, 295
+  offset: 0, 0
+  index: -1
+pangzi-youtuishang
+  rotate: false
+  xy: 1504, 591
+  size: 152, 195
+  orig: 152, 195
+  offset: 0, 0
+  index: -1
+pangzi-youtuixia
+  rotate: true
+  xy: 1303, 638
+  size: 148, 199
+  orig: 148, 199
+  offset: 0, 0
+  index: -1
+pangzi-zuojiaoshang
+  rotate: false
+  xy: 1658, 617
+  size: 165, 186
+  orig: 165, 186
+  offset: 0, 0
+  index: -1
+pangzi-zuojiaoxia
+  rotate: true
+  xy: 1088, 638
+  size: 148, 213
+  orig: 148, 213
+  offset: 0, 0
+  index: -1
+pangzi-zuoshoushjang
+  rotate: false
+  xy: 637, 116
+  size: 179, 207
+  orig: 179, 207
+  offset: 0, 0
+  index: -1
+pangzi-zuoshouxia
+  rotate: true
+  xy: 533, 325
+  size: 181, 309
+  orig: 181, 309
+  offset: 0, 0
+  index: -1
+pangzi-zuotuixia
+  rotate: true
+  xy: 818, 149
+  size: 148, 218
+  orig: 148, 218
+  offset: 0, 0
+  index: -1

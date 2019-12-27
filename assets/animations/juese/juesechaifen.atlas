@@ -1,0 +1,146 @@
+
+juesechaifen.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai-jian
+  rotate: true
+  xy: 832, 42
+  size: 383, 121
+  orig: 383, 121
+  offset: 0, 0
+  index: -1
+jin-hadiren
+  rotate: true
+  xy: 988, 941
+  size: 399, 136
+  orig: 399, 136
+  offset: 0, 0
+  index: -1
+jinglv-fuwenjian
+  rotate: true
+  xy: 1917, 1629
+  size: 391, 129
+  orig: 391, 129
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 988, 759
+  size: 117, 180
+  orig: 117, 180
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 1228, 1334
+  size: 248, 286
+  orig: 248, 286
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: true
+  xy: 1516, 1334
+  size: 248, 286
+  orig: 248, 286
+  offset: 0, 0
+  index: -1
+yaobi
+  rotate: false
+  xy: 1295, 1245
+  size: 130, 87
+  orig: 130, 87
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: true
+  xy: 1549, 1249
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 1804, 1407
+  size: 102, 175
+  orig: 102, 175
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 1804, 1407
+  size: 102, 175
+  orig: 102, 175
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 988, 605
+  size: 94, 152
+  orig: 94, 152
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 1220, 1178
+  size: 73, 154
+  orig: 73, 154
+  offset: 0, 0
+  index: -1
+zhengzuojiao
+  rotate: false
+  xy: 1126, 1172
+  size: 92, 168
+  orig: 92, 168
+  offset: 0, 0
+  index: -1
+zuobi
+  rotate: true
+  xy: 1427, 1244
+  size: 88, 120
+  orig: 88, 120
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 988, 446
+  size: 77, 157
+  orig: 77, 157
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 1126, 1019
+  size: 92, 151
+  orig: 92, 151
+  offset: 0, 0
+  index: -1
+图层 10
+  rotate: false
+  xy: 2, 427
+  size: 984, 913
+  orig: 984, 913
+  offset: 0, 0
+  index: -1
+图层 12
+  rotate: false
+  xy: 2, 1342
+  size: 1224, 678
+  orig: 1224, 678
+  offset: 0, 0
+  index: -1
+图层 2
+  rotate: true
+  xy: 1228, 1584
+  size: 436, 687
+  orig: 436, 687
+  offset: 0, 0
+  index: -1
+图层 8
+  rotate: true
+  xy: 2, 2
+  size: 423, 828
+  orig: 423, 828
+  offset: 0, 0
+  index: -1

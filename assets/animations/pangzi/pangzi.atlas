@@ -1,0 +1,90 @@
+
+pangzi.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pangzi-shjenti
+  rotate: true
+  xy: 1121, 152
+  size: 333, 442
+  orig: 333, 442
+  offset: 0, 0
+  index: -1
+pangzi-tou
+  rotate: false
+  xy: 1748, 231
+  size: 207, 254
+  orig: 207, 254
+  offset: 0, 0
+  index: -1
+pangzi-wuqi
+  rotate: true
+  xy: 2, 234
+  size: 251, 1117
+  orig: 251, 1117
+  offset: 0, 0
+  index: -1
+pangzi-youshoushang
+  rotate: true
+  xy: 299, 43
+  size: 189, 205
+  orig: 189, 205
+  offset: 0, 0
+  index: -1
+pangzi-youshouxia
+  rotate: true
+  xy: 2, 32
+  size: 200, 295
+  orig: 200, 295
+  offset: 0, 0
+  index: -1
+pangzi-youtuishang
+  rotate: true
+  xy: 1748, 77
+  size: 152, 195
+  orig: 152, 195
+  offset: 0, 0
+  index: -1
+pangzi-youtuixia
+  rotate: true
+  xy: 1317, 2
+  size: 148, 199
+  orig: 148, 199
+  offset: 0, 0
+  index: -1
+pangzi-zuojiaoshang
+  rotate: false
+  xy: 935, 46
+  size: 165, 186
+  orig: 165, 186
+  offset: 0, 0
+  index: -1
+pangzi-zuojiaoxia
+  rotate: true
+  xy: 1102, 2
+  size: 148, 213
+  orig: 148, 213
+  offset: 0, 0
+  index: -1
+pangzi-zuoshoushjang
+  rotate: true
+  xy: 506, 53
+  size: 179, 207
+  orig: 179, 207
+  offset: 0, 0
+  index: -1
+pangzi-zuoshouxia
+  rotate: false
+  xy: 1565, 176
+  size: 181, 309
+  orig: 181, 309
+  offset: 0, 0
+  index: -1
+pangzi-zuotuixia
+  rotate: true
+  xy: 715, 84
+  size: 148, 218
+  orig: 148, 218
+  offset: 0, 0
+  index: -1

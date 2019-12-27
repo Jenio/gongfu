@@ -1,0 +1,923 @@
+{
+"skeleton": { "hash": "K3RRaPK0POQCUkxZGa+5KakYe/w", "spine": "3.7.94", "width": 566.21, "height": 722.91, "images": "./images/", "audio": "E:/2019/11/11-26/怪1/images" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 345.34, "rotation": -0.24, "x": -160.94, "y": -20.09 },
+	{ "name": "guai1-shenti", "parent": "bone", "length": 149.9, "rotation": 91.87, "x": 176.95, "y": 344.64 },
+	{ "name": "guai1-zuobi", "parent": "guai1-shenti", "length": 113.74, "rotation": 154.69, "x": 125.44, "y": 43.53 },
+	{ "name": "guai1-oshou", "parent": "guai1-zuobi", "length": 131.66, "rotation": 28.02, "x": 103.28, "y": -4.58 },
+	{ "name": "guai1-youbi", "parent": "guai1-shenti", "length": 104.76, "rotation": -157.52, "x": 117.46, "y": -36.19 },
+	{ "name": "guai1-youshou", "parent": "guai1-youbi", "length": 139.38, "rotation": -13.5, "x": 97.08, "y": 0.31 },
+	{ "name": "guai1-yaobi", "parent": "bone", "length": 81.35, "rotation": -90.77, "x": 178.41, "y": 336.08 },
+	{ "name": "guai1-zuotui", "parent": "guai1-yaobi", "length": 126.5, "rotation": -10.05, "x": 39, "y": -26.43 },
+	{ "name": "guai1-zuojiao", "parent": "guai1-zuotui", "length": 153.23, "rotation": -45.13, "x": 113.04, "y": -5.54 },
+	{ "name": "guai1-youtui", "parent": "guai1-yaobi", "length": 147.15, "rotation": -1.77, "x": 38.05, "y": 27.78 },
+	{ "name": "guai1-youjiao", "parent": "guai1-youtui", "length": 141.73, "rotation": -40.37, "x": 124.42, "y": -2.53 },
+	{ "name": "guai1-wuqi", "parent": "guai1-oshou", "length": 295.38, "rotation": 42.08, "x": 89.14, "y": -10.43 },
+	{ "name": "guai1-zuojiao2", "parent": "guai1-zuojiao", "length": 54.17, "rotation": 83.97, "x": 144.84, "y": -10.37 },
+	{ "name": "guai1-youjiao2", "parent": "guai1-youjiao", "length": 66.44, "rotation": 80.82, "x": 128.08, "y": -9.12 },
+	{ "name": "zuo", "parent": "root", "x": -43.12, "y": 7.54, "color": "ff3f00ff" },
+	{ "name": "target2", "parent": "root", "x": 39.51, "y": 5.27, "color": "ff3f00ff" },
+	{ "name": "guai1-tou", "parent": "guai1-shenti", "length": 209.18, "rotation": -1.2, "x": 138.4, "y": 0.7 },
+	{ "name": "1wuqizhua", "parent": "guai1-oshou", "length": 184.43, "rotation": 9.29, "x": 88.37, "y": -9.41 },
+	{ "name": "2wuqizhua", "parent": "guai1-youshou", "length": 191.81, "rotation": -0.04, "x": 92.14, "y": 0.25 }
+],
+"slots": [
+	{ "name": "2wuqizhua", "bone": "2wuqizhua", "attachment": "图层 13" },
+	{ "name": "guai1-yaobi", "bone": "guai1-yaobi", "attachment": "guai1-yaobi" },
+	{ "name": "guai1-youjiao", "bone": "guai1-youjiao", "attachment": "guai1-youjiao" },
+	{ "name": "guai1-zuojiao", "bone": "guai1-zuojiao", "attachment": "guai1-zuojiao" },
+	{ "name": "guai1-youtui", "bone": "guai1-youtui", "attachment": "guai1-youtui" },
+	{ "name": "guai1-zuotui", "bone": "guai1-zuotui", "attachment": "guai1-zuotui" },
+	{ "name": "gongjianshou", "bone": "root" },
+	{ "name": "guai1-youshou", "bone": "guai1-youshou", "attachment": "guai1-youshou" },
+	{ "name": "guai1-youbi", "bone": "guai1-youbi", "attachment": "guai1-youbi" },
+	{ "name": "guai1-shenti", "bone": "guai1-shenti", "attachment": "guai1-shenti" },
+	{ "name": "guai1-zuobi", "bone": "guai1-zuobi", "attachment": "guai1-zuobi" },
+	{ "name": "guai1-wuqi", "bone": "guai1-wuqi" },
+	{ "name": "1wuqizhua", "bone": "1wuqizhua", "attachment": "图层 14" },
+	{ "name": "guai1-oshou", "bone": "guai1-oshou", "attachment": "guai1-oshou" },
+	{ "name": "guai1-tou", "bone": "guai1-tou", "attachment": "guai1-tou" }
+],
+"ik": [
+	{
+		"name": "target",
+		"order": 1,
+		"bones": [ "guai1-youtui", "guai1-youjiao" ],
+		"target": "target2",
+		"bendPositive": false
+	},
+	{
+		"name": "zuo",
+		"order": 0,
+		"bones": [ "guai1-zuotui", "guai1-zuojiao" ],
+		"target": "zuo",
+		"bendPositive": false
+	}
+],
+"skins": {
+	"default": {
+		"1wuqizhua": {
+			"图层 14": { "x": 38.26, "y": -2.97, "rotation": 41.99, "width": 315, "height": 44 }
+		},
+		"2wuqizhua": {
+			"图层 13": { "x": 0.5, "y": 0.5, "width": 135, "height": 471 }
+		},
+		"guai1-oshou": {
+			"guai1-oshou": { "x": 65.19, "y": -2.9, "rotation": 85.65, "width": 77, "height": 157 }
+		},
+		"guai1-shenti": {
+			"guai1-shenti": { "x": 62.75, "y": 1.91, "rotation": -91.64, "width": 117, "height": 180 }
+		},
+		"guai1-tou": {
+			"guai1-tou": { "x": 127.42, "y": 9.57, "rotation": -90.44, "width": 184, "height": 254 }
+		},
+		"guai1-yaobi": {
+			"guai1-yaobi": { "x": 37.27, "y": 0.03, "rotation": 91.01, "width": 130, "height": 87 }
+		},
+		"guai1-youbi": {
+			"guai1-youbi": { "x": 47.6, "y": -3.25, "rotation": 65.88, "width": 83, "height": 122 }
+		},
+		"guai1-youjiao": {
+			"guai1-youjiao": { "x": 65.58, "y": 15.16, "rotation": 94.62, "width": 102, "height": 175 }
+		},
+		"guai1-youshou": {
+			"guai1-youshou": { "x": 67.01, "y": -2.36, "rotation": 79.38, "width": 76, "height": 152 }
+		},
+		"guai1-youtui": {
+			"guai1-youtui": { "x": 57.47, "y": -3.45, "rotation": 92.78, "width": 73, "height": 154 }
+		},
+		"guai1-zuobi": {
+			"guai1-zuobi": { "x": 52.18, "y": 4.2, "rotation": 113.67, "width": 88, "height": 120 }
+		},
+		"guai1-zuojiao": {
+			"guai1-zhengzuojiao": { "x": 84.85, "y": -2.29, "rotation": 94.81, "width": 92, "height": 168 },
+			"guai1-zuojiao": { "x": 79.77, "y": 16.35, "rotation": 94.81, "width": 102, "height": 175 }
+		},
+		"guai1-zuotui": {
+			"guai1-zuotui": { "x": 57.51, "y": 1.55, "rotation": 101.06, "width": 92, "height": 151 }
+		}
+	}
+},
+"animations": {
+	"daiji": {
+		"slots": {
+			"guai1-wuqi": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guai1-zuojiao2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-youjiao2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-oshou": {
+				"rotate": [
+					{ "time": 0, "angle": 10.15 },
+					{ "time": 0.5, "angle": 7.47 },
+					{ "time": 1, "angle": 10.15 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-zuobi": {
+				"rotate": [
+					{ "time": 0, "angle": -7.12 },
+					{ "time": 0.5, "angle": -11.95 },
+					{ "time": 1, "angle": -7.12 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.08, "y": -13.2, "curve": "stepped" },
+					{ "time": 1, "x": 0.08, "y": -13.2 }
+				]
+			},
+			"guai1-youshou": {
+				"rotate": [
+					{ "time": 0, "angle": 16.66 },
+					{ "time": 0.5, "angle": 16.54 },
+					{ "time": 1, "angle": 16.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"target2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 41.34, "y": 4.31, "curve": "stepped" },
+					{ "time": 1, "x": 41.34, "y": 4.31 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-tou": {
+				"rotate": [
+					{ "time": 0, "angle": 4.08, "curve": "stepped" },
+					{ "time": 1, "angle": 4.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-yaobi": {
+				"rotate": [
+					{ "time": 0, "angle": -0.2, "curve": "stepped" },
+					{ "time": 1, "angle": -0.2 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.03, "y": -7.47, "curve": "stepped" },
+					{ "time": 1, "x": 0.03, "y": -7.47 }
+				]
+			},
+			"2wuqizhua": {
+				"rotate": [
+					{ "time": 0, "angle": 7.4, "curve": "stepped" },
+					{ "time": 1, "angle": 7.4 }
+				]
+			},
+			"guai1-shenti": {
+				"rotate": [
+					{ "time": 0, "angle": -6.05, "curve": "stepped" },
+					{ "time": 1, "angle": -6.05 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.35, "y": -7.18 },
+					{ "time": 0.5, "x": 0.4, "y": -19.39 },
+					{ "time": 1, "x": 0.35, "y": -7.18 }
+				]
+			},
+			"zuo": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -8.28, "y": -5.07, "curve": "stepped" },
+					{ "time": 1, "x": -8.28, "y": -5.07 }
+				]
+			},
+			"guai1-zuotui": {
+				"rotate": [
+					{ "time": 0, "angle": 6.48, "curve": "stepped" },
+					{ "time": 1, "angle": 6.48 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-zuojiao": {
+				"rotate": [
+					{ "time": 0, "angle": 42.33, "curve": "stepped" },
+					{ "time": 1, "angle": 42.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-youtui": {
+				"rotate": [
+					{ "time": 0, "angle": 2.58, "curve": "stepped" },
+					{ "time": 1, "angle": 2.58 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-youjiao": {
+				"rotate": [
+					{ "time": 0, "angle": 39.2, "curve": "stepped" },
+					{ "time": 1, "angle": 39.2 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"1wuqizhua": {
+				"rotate": [
+					{ "time": 0, "angle": 6.29, "curve": "stepped" },
+					{ "time": 1, "angle": 6.29 }
+				]
+			},
+			"guai1-youbi": {
+				"rotate": [
+					{ "time": 0, "angle": 4.22 },
+					{ "time": 0.5, "angle": 10.61 },
+					{ "time": 1, "angle": 4.22 }
+				],
+				"translate": [
+					{ "time": 0, "x": 5.39, "y": 18.49, "curve": "stepped" },
+					{ "time": 1, "x": 5.39, "y": 18.49 }
+				]
+			}
+		}
+	},
+	"gongji": {
+		"slots": {
+			"1wuqizhua": {
+				"attachment": [
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"guai1-wuqi": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guai1-wuqi": {
+				"rotate": [
+					{ "time": 0, "angle": -23.01 }
+				],
+				"translate": [
+					{ "time": 0, "x": -11.17, "y": -34.02 }
+				]
+			},
+			"zuo": {
+				"translate": [
+					{ "time": 0, "x": -88.67, "y": 23.47 }
+				]
+			},
+			"target2": {
+				"translate": [
+					{ "time": 0, "x": 33.9, "y": 0 }
+				]
+			},
+			"guai1-shenti": {
+				"rotate": [
+					{ "time": 0, "angle": 14.91 },
+					{ "time": 0.3, "angle": 11.03 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.06, "y": -14.34 }
+				]
+			},
+			"guai1-yaobi": {
+				"translate": [
+					{ "time": 0, "x": 0.06, "y": -14.34 }
+				]
+			},
+			"guai1-youbi": {
+				"rotate": [
+					{ "time": 0, "angle": 110.83 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.48, "y": 11.8 }
+				]
+			},
+			"guai1-youshou": {
+				"rotate": [
+					{ "time": 0, "angle": 18.74 }
+				]
+			},
+			"guai1-tou": {
+				"rotate": [
+					{ "time": 0, "angle": 23.02 }
+				]
+			},
+			"guai1-zuobi": {
+				"rotate": [
+					{ "time": 0, "angle": 101.73 },
+					{ "time": 0.3, "angle": -30.62 }
+				]
+			},
+			"1wuqizhua": {
+				"rotate": [
+					{ "time": 0, "angle": -68.05 },
+					{ "time": 0.1667, "angle": -52.93 },
+					{ "time": 0.3, "angle": -17.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 132.59, "y": 0.43 },
+					{ "time": 0.1667, "x": 130.97, "y": 40.76 },
+					{ "time": 0.3, "x": 126.57, "y": 94.3 },
+					{ "time": 0.3667, "x": 675.71, "y": 485.55 },
+					{ "time": 0.4, "x": 1180.94, "y": 357.52 }
+				]
+			},
+			"guai1-oshou": {
+				"rotate": [
+					{ "time": 0, "angle": 53.5 },
+					{ "time": 0.1667, "angle": 109.15 },
+					{ "time": 0.3, "angle": 130.72 }
+				]
+			}
+		}
+	},
+	"siwang": {
+		"slots": {
+			"guai1-wuqi": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guai1-zuojiao": {
+				"rotate": [
+					{ "time": 0, "angle": 42.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-youtui": {
+				"rotate": [
+					{ "time": 0, "angle": 2.58 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-youjiao": {
+				"rotate": [
+					{ "time": 0, "angle": 39.2 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-zuojiao2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-youjiao2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"zuo": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0667, "angle": -22.03 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0667, "x": -139.9, "y": 153.5 },
+					{ "time": 0.2, "x": -163.21, "y": 185.15 },
+					{ "time": 0.2667, "x": -174.87, "y": 149.61 },
+					{ "time": 0.3333, "x": -141.84, "y": -9.72 },
+					{ "time": 0.4, "x": -134.86, "y": 0 },
+					{ "time": 0.4667, "x": -112.37, "y": 0 }
+				]
+			},
+			"target2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2667, "angle": -3.73 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0667, "x": -153.5, "y": 231.22 },
+					{ "time": 0.2667, "x": -254.53, "y": 213.73 },
+					{ "time": 0.3333, "x": -221.5, "y": 54.4 },
+					{ "time": 0.4, "x": -207.03, "y": -1.94 },
+					{ "time": 0.4667, "x": -189.89, "y": -1.94 }
+				]
+			},
+			"guai1-youbi": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0667, "angle": 123.38 },
+					{ "time": 0.2, "angle": 62.07 },
+					{ "time": 0.2667, "angle": 37.66 },
+					{ "time": 0.4, "angle": 166.09, "curve": "stepped" },
+					{ "time": 0.4667, "angle": 166.09 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4, "x": -2.24, "y": 21.26, "curve": "stepped" },
+					{ "time": 0.4667, "x": -2.24, "y": 21.26 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-shenti": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0667, "angle": 27.09 },
+					{ "time": 0.1333, "angle": 18.4 },
+					{ "time": 0.2, "angle": 35.26 },
+					{ "time": 0.3333, "angle": 73.99 },
+					{ "time": 0.4, "angle": 82.35, "curve": "stepped" },
+					{ "time": 0.4667, "angle": 82.35 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0667, "x": -288.12, "y": 132.88 },
+					{ "time": 0.2, "x": -473.83, "y": -64.13 },
+					{ "time": 0.2667, "x": -472.96, "y": -275.92 }
+				]
+			},
+			"guai1-zuobi": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0667, "angle": -138.08 },
+					{ "time": 0.2, "angle": 141.75 },
+					{ "time": 0.2667, "angle": 88.34 },
+					{ "time": 0.4, "angle": -152.08, "curve": "stepped" },
+					{ "time": 0.4667, "angle": -152.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-oshou": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2667, "angle": 13.69 },
+					{ "time": 0.4, "angle": -19.79 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-youshou": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0667, "angle": 83.61 },
+					{ "time": 0.4, "angle": 28.39, "curve": "stepped" },
+					{ "time": 0.4667, "angle": 28.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-yaobi": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0667, "angle": 36.97 },
+					{ "time": 0.2, "angle": 73.86 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0667, "x": -288.12, "y": 132.88 },
+					{ "time": 0.2, "x": -473.83, "y": -64.13 },
+					{ "time": 0.2667, "x": -473.04, "y": -256.49 }
+				]
+			},
+			"guai1-zuotui": {
+				"rotate": [
+					{ "time": 0, "angle": 6.48 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"guai1-tou": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2667, "angle": -24.77 },
+					{ "time": 0.3333, "angle": 17.78 },
+					{ "time": 0.4, "angle": 5.11, "curve": "stepped" },
+					{ "time": 0.4667, "angle": 5.11 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"xingzou": {
+		"slots": {
+			"guai1-wuqi": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"guai1-youtui": {
+				"translate": [
+					{ "time": 0, "x": 0.45, "y": -25.58, "curve": "stepped" },
+					{ "time": 1.0667, "x": 0.45, "y": -25.58 }
+				]
+			},
+			"guai1-zuotui": {
+				"translate": [
+					{ "time": 0, "x": -0.45, "y": 25.58, "curve": "stepped" },
+					{ "time": 1.0667, "x": -0.45, "y": 25.58 }
+				]
+			},
+			"zuo": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 186.34,
+						"y": 30.62,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": 153.41,
+						"y": 5.43,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 120.48,
+						"y": 5.43,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 21.7,
+						"y": 5.43,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 8.14,
+						"y": 7.37,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"x": -79.03,
+						"y": 42.24,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6333,
+						"x": -110.02,
+						"y": 46.11,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7333,
+						"x": -84.84,
+						"y": 98.41,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": -1.55,
+						"y": 92.6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.9667,
+						"x": 108.86,
+						"y": 73.23,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.0667, "x": 182.47, "y": 26.74 }
+				]
+			},
+			"target2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -159.03,
+						"y": 40.7,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": -190.02,
+						"y": 56.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": -195.83,
+						"y": 100.75,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": -67.99,
+						"y": 87.19,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 21.11,
+						"y": 75.57,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"x": 116.03,
+						"y": 21.33,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 55.98,
+						"y": 0.03,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7333,
+						"x": 19.18,
+						"y": -5.78,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": -7.94,
+						"y": 0.03,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.9667,
+						"x": -83.49,
+						"y": 13.58,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.0667, "x": -159.03, "y": 40.7 }
+				]
+			},
+			"guai1-shenti": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0.03,
+						"y": -6.4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.13,
+						"y": -31.58,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 0.1,
+						"y": -23.83,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.04,
+						"y": -10.27,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0,
+						"y": -0.59,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"x": 0.1,
+						"y": -23.83,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 0.15,
+						"y": -37.39,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7333,
+						"x": 0.12,
+						"y": -29.64,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.03,
+						"y": -8.33,
+						"curve": [ 0.25, 0, 0.625, 0.5 ]
+					},
+					{
+						"time": 0.9667,
+						"x": 0.04,
+						"y": -9.3,
+						"curve": [ 0.375, 0.5, 0.75, 1 ]
+					},
+					{ "time": 1.0667, "x": 0.03, "y": -6.4 }
+				]
+			},
+			"guai1-yaobi": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0.03,
+						"y": -6.4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.13,
+						"y": -31.58,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 0.1,
+						"y": -23.83,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.04,
+						"y": -10.27,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0,
+						"y": -0.59,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"x": 0.1,
+						"y": -23.83,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 0.15,
+						"y": -37.39,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7333,
+						"x": 0.12,
+						"y": -29.64,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.03,
+						"y": -8.33,
+						"curve": [ 0.25, 0, 0.625, 0.5 ]
+					},
+					{
+						"time": 0.9667,
+						"x": 0.04,
+						"y": -9.3,
+						"curve": [ 0.375, 0.5, 0.75, 1 ]
+					},
+					{ "time": 1.0667, "x": 0.03, "y": -6.4 }
+				]
+			},
+			"guai1-zuobi": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 65.06,
+						"curve": [ 0.324, 0, 0.658, 0.34 ]
+					},
+					{
+						"time": 0.5,
+						"angle": 58.49,
+						"curve": [ 0.323, 0.21, 0.657, 0.55 ]
+					},
+					{ "time": 1.0667, "angle": 65.06 }
+				]
+			},
+			"guai1-youbi": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 15.54,
+						"curve": [ 0.324, 0, 0.658, 0.34 ]
+					},
+					{
+						"time": 0.5,
+						"angle": 8.98,
+						"curve": [ 0.323, 0.21, 0.657, 0.55 ]
+					},
+					{ "time": 1.0667, "angle": 15.54 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.64, "y": 22.38, "curve": "stepped" },
+					{ "time": 1.0667, "x": 0.64, "y": 22.38 }
+				]
+			},
+			"guai1-youshou": {
+				"rotate": [
+					{ "time": 0, "angle": 28.42, "curve": "stepped" },
+					{ "time": 1.0667, "angle": 28.42 }
+				]
+			},
+			"1wuqizhua": {
+				"rotate": [
+					{ "time": 0, "angle": -63.81, "curve": "stepped" },
+					{ "time": 1.0667, "angle": -63.81 }
+				],
+				"translate": [
+					{ "time": 0, "x": 66.36, "y": 20.38, "curve": "stepped" },
+					{ "time": 1.0667, "x": 66.36, "y": 20.38 }
+				]
+			}
+		}
+	}
+}
+}

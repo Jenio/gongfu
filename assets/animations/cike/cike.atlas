@@ -1,0 +1,153 @@
+
+cike.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1wuqizhua
+  rotate: true
+  xy: 298, 230
+  size: 132, 238
+  orig: 132, 238
+  offset: 0, 0
+  index: -1
+2wuqizhua
+  rotate: true
+  xy: 1210, 378
+  size: 132, 238
+  orig: 132, 238
+  offset: 0, 0
+  index: -1
+chazia
+  rotate: false
+  xy: 656, 360
+  size: 296, 150
+  orig: 296, 150
+  offset: 0, 0
+  index: -1
+chazib
+  rotate: false
+  xy: 656, 360
+  size: 296, 150
+  orig: 296, 150
+  offset: 0, 0
+  index: -1
+guai1-oshou
+  rotate: false
+  xy: 394, 71
+  size: 77, 157
+  orig: 77, 157
+  offset: 0, 0
+  index: -1
+guai1-shenti
+  rotate: true
+  xy: 1450, 393
+  size: 117, 180
+  orig: 117, 180
+  offset: 0, 0
+  index: -1
+guai1-tou
+  rotate: true
+  xy: 954, 326
+  size: 184, 254
+  orig: 184, 254
+  offset: 0, 0
+  index: -1
+guai1-wuqi
+  rotate: false
+  xy: 2, 229
+  size: 294, 281
+  orig: 294, 281
+  offset: 0, 0
+  index: -1
+guai1-yaobi
+  rotate: true
+  xy: 538, 232
+  size: 130, 87
+  orig: 130, 87
+  offset: 0, 0
+  index: -1
+guai1-youbi
+  rotate: false
+  xy: 551, 108
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+guai1-youjiao
+  rotate: true
+  xy: 1632, 408
+  size: 102, 175
+  orig: 102, 175
+  offset: 0, 0
+  index: -1
+guai1-zuojiao
+  rotate: true
+  xy: 1632, 408
+  size: 102, 175
+  orig: 102, 175
+  offset: 0, 0
+  index: -1
+guai1-youshou
+  rotate: false
+  xy: 473, 76
+  size: 76, 152
+  orig: 76, 152
+  offset: 0, 0
+  index: -1
+guai1-youtui
+  rotate: true
+  xy: 2, 2
+  size: 73, 154
+  orig: 73, 154
+  offset: 0, 0
+  index: -1
+guai1-zhengzuojiao
+  rotate: true
+  xy: 1809, 418
+  size: 92, 168
+  orig: 92, 168
+  offset: 0, 0
+  index: -1
+guai1-zuobi
+  rotate: false
+  xy: 627, 238
+  size: 88, 120
+  orig: 88, 120
+  offset: 0, 0
+  index: -1
+guai1-zuotui
+  rotate: false
+  xy: 300, 77
+  size: 92, 151
+  orig: 92, 151
+  offset: 0, 0
+  index: -1
+wuqier
+  rotate: false
+  xy: 298, 364
+  size: 356, 146
+  orig: 356, 146
+  offset: 0, 0
+  index: -1
+wuqiyi
+  rotate: false
+  xy: 298, 364
+  size: 356, 146
+  orig: 356, 146
+  offset: 0, 0
+  index: -1
+zhuazib
+  rotate: false
+  xy: 2, 77
+  size: 296, 150
+  orig: 296, 150
+  offset: 0, 0
+  index: -1
+zhuazia
+  rotate: false
+  xy: 2, 77
+  size: 296, 150
+  orig: 296, 150
+  offset: 0, 0
+  index: -1

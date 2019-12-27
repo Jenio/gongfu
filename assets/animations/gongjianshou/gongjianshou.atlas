@@ -1,0 +1,104 @@
+
+gongjianshou.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guai1-oshou
+  rotate: true
+  xy: 1142, 135
+  size: 77, 157
+  orig: 77, 157
+  offset: 0, 0
+  index: -1
+guai1-shenti
+  rotate: false
+  xy: 731, 32
+  size: 117, 180
+  orig: 117, 180
+  offset: 0, 0
+  index: -1
+guai1-tou
+  rotate: true
+  xy: 475, 28
+  size: 184, 254
+  orig: 184, 254
+  offset: 0, 0
+  index: -1
+guai1-yaobi
+  rotate: false
+  xy: 1455, 125
+  size: 130, 87
+  orig: 130, 87
+  offset: 0, 0
+  index: -1
+guai1-youbi
+  rotate: true
+  xy: 1709, 129
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+guai1-youjiao
+  rotate: false
+  xy: 850, 37
+  size: 102, 175
+  orig: 102, 175
+  offset: 0, 0
+  index: -1
+guai1-zuojiao
+  rotate: false
+  xy: 850, 37
+  size: 102, 175
+  orig: 102, 175
+  offset: 0, 0
+  index: -1
+guai1-youshou
+  rotate: true
+  xy: 1301, 136
+  size: 76, 152
+  orig: 76, 152
+  offset: 0, 0
+  index: -1
+guai1-youtui
+  rotate: true
+  xy: 319, 2
+  size: 73, 154
+  orig: 73, 154
+  offset: 0, 0
+  index: -1
+guai1-zhengzuojiao
+  rotate: false
+  xy: 954, 44
+  size: 92, 168
+  orig: 92, 168
+  offset: 0, 0
+  index: -1
+guai1-zuobi
+  rotate: true
+  xy: 1587, 124
+  size: 88, 120
+  orig: 88, 120
+  offset: 0, 0
+  index: -1
+guai1-zuotui
+  rotate: false
+  xy: 1048, 61
+  size: 92, 151
+  orig: 92, 151
+  offset: 0, 0
+  index: -1
+图层 13
+  rotate: true
+  xy: 2, 77
+  size: 135, 471
+  orig: 135, 471
+  offset: 0, 0
+  index: -1
+图层 14
+  rotate: false
+  xy: 2, 31
+  size: 315, 44
+  orig: 315, 44
+  offset: 0, 0
+  index: -1
